@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Environment variables
+.env
+.env.local
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# Static files (collected)
+staticfiles/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# uv
+.python-version
