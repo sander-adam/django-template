@@ -66,6 +66,20 @@ See `plan/new-project-setup.md` for step-by-step instructions to create a new pr
 
 ---
 
+## Python & uv
+
+**Always use `uv` for all Python operations.** Never use `pip`, `python`, or `pip install` directly.
+
+```bash
+uv run <command>        # Run any Python command
+uv run manage.py ...    # Django management commands
+uv run pytest ...       # Run tests
+uv add <package>        # Add a dependency
+uv sync                 # Install/sync dependencies
+```
+
+---
+
 ## Documentation Maintenance
 
 **Important:** Keep the `agent_docs/` folder updated as the project evolves.

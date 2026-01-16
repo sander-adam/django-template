@@ -44,3 +44,6 @@ htmlcov/
 
 # uv
 .python-version
+
+# Git worktrees
+.trees/
